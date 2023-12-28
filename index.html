@@ -14,7 +14,9 @@
     BOX
 </div>
 <script>
-    function let div = document.body.children[2]
+    function increase() {
+    
+    let div = document.body.children[2]
 
     let size = parseInt(div.style.width)
     size += 10
@@ -22,6 +24,7 @@
     div.style.width = size + "px"
     div.style.height = size + "px"
     console.log(size)
+}
 </script>
 </body>
 </html>
